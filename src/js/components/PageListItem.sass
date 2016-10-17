@@ -1,0 +1,29 @@
+.page-list-item-wrapper
+  list-style-type: none
+  display: flex
+  justify-content: center
+  margin-top: 10px
+  span
+    color: #000
+  .page-list-item
+    background-color: #fff
+    cursor: pointer
+    &.selected
+      outline-style: solid
+      outline-color: rgb(244, 67, 54)
+      outline-width: 2px
+    .page-list-item-thumb
+      position: relative
+      overflow: hidden
+    .item-corner
+      width: 0px
+      height: 0px
+      position: absolute
+      border-top: 25px solid #f44336
+      border-right: 25px solid transparent
+      span
+        position: relative;
+        top: -28px;
+        font-size: 12px;
+        left: 4px;
+        color: #fff;
